@@ -1,6 +1,5 @@
 <template>
-  <div class="form">
-
+<div class="form">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb">
         <router-link to="/">ユーザーの一覧</router-link>
@@ -11,17 +10,21 @@
 
   <form>
   <div class="form-group">
-    <label for="exampleInputEmail1">名前</label>
-    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <label for="">名前</label>
+    <input type="text" class="form-control" placeholder="shigaki daichi" required>
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">性別</label>
-    <input type="password" class="form-control">
+    <label for="">年齢</label>
+    <input type="text" class="form-control" placeholder="12" required>
+  </div>
+   <div class="form-group">
+    <input type="radio">
+    <label for="">男性</label>
+    <input type="radio">
+    <label for="">女性</label>
   </div>
   <button type="submit" class="btn btn-primary">登録</button>
 </form>
-
 </div>
 </template>
 
